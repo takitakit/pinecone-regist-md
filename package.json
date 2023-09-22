@@ -1,0 +1,25 @@
+{
+  "name": "pinecone-regist-md",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "webpack --watch",
+    "exec": "node dist/index.js"
+  },
+  "dependencies": {
+    "@pinecone-database/doc-splitter": "^0.0.1",
+    "@pinecone-database/pinecone": "^1.0.1",
+    "@types/node": "^20.6.3",
+    "ai": "^2.2.13",
+    "md5": "^2.3.0",
+    "openai-edge": "^1.2.2",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.3.2",
+    "ts-loader": "^9.4.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
